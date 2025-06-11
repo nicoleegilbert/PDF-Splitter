@@ -40,7 +40,7 @@ Make sure you have Python 3 installed, then install the required libraries:
 pip install PyPDF2 pycryptodome
 
 
-**🚀 How to Use**
+## 🚀 How to Use**
 
 1. Place all signed intake PDFs in an input_forms folder. Filenames should begin with the child’s name:
           jane_doe.intake.pdf
@@ -62,7 +62,7 @@ python split_child_forms.py
 
 5. These files can now be easily matched to Salesforce records and uploaded accordingly.
 
-**🧠 How It Works**
+##🧠 How It Works**
 The script uses a form_map dictionary to define which pages in the packet correspond to which forms. Example:
 form_map = {
     "MEDIA RELEASE AND CONSENT FOR MINORS": [0],
